@@ -52,7 +52,7 @@ PAYMENT_TEXT = os.getenv('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀ�
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Nxivmbots:nxivmbots31@cluster0.w5ctt.mongodb.net/")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluser10")
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002075726565")) #database save channel id 
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002115625636")) #database save channel id 
 
 """
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002182435006"))
@@ -95,7 +95,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot !"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6695586027)
+ADMINS.append(6663845789)
 
 LOG_FILE_NAME = "uxblogs.txt"
 
