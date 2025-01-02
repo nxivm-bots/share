@@ -5,16 +5,16 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7725518791:AAERChanLk4VbRPhx8GtcIv1lJqWlOHCWnc")
 APP_ID = int(os.environ.get("APP_ID", "22505271"))
 API_HASH = os.environ.get("API_HASH", "c89a94fcfda4bc06524d0903977fc81e")
  
-BAN = int(os.environ.get("BAN", "1198543450")) #Owner user id - dont chnge 
-OWNER = os.environ.get("OWNER", "PhDLust") #Owner username
-OWNER_ID = int(os.environ.get("OWNER_ID", "7131513396")) #Owner user id
-OWNER_USERNAME = os.environ.get('OWNER_USERNAME', 'PhDLust')
-SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "UOFFICIAL_CHAT") # WITHOUR @
-CHANNEL = os.environ.get("CHANNEL", "ULTROID_OFFICIAL") # WITHOUR @
+BAN = int(os.environ.get("BAN", "1110013190")) #Owner user id - dont chnge 
+OWNER = os.environ.get("OWNER", "iblame") #Owner username
+OWNER_ID = int(os.environ.get("OWNER_ID", "1110013190")) #Owner user id
+OWNER_USERNAME = os.environ.get('OWNER_USERNAME', 'iblame')
+SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "Bloods_Stashy") # WITHOUR @
+CHANNEL = os.environ.get("CHANNEL", "Bloods_Onlyfans") # WITHOUR @
 
 
 #pic
@@ -49,7 +49,7 @@ PAYMENT_TEXT = os.getenv('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀ�
                                       '‼️ ᴀғᴛᴇʀ sᴇɴᴅɪɴɢ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ᴜs sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ</b>')
 
 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://ultroidxTeam:ultroidxTeam@cluster0.gabxs6m.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Nxivmbots:nxivmbots31@cluster0.w5ctt.mongodb.net/")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluser10")
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002075726565")) #database save channel id 
