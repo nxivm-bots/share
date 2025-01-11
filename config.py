@@ -76,8 +76,8 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 
 try:
-    ADMINS=[6020516635]
-    for x in (os.environ.get("ADMINS", "1198543451 6940013358 6020516635 1837294444 6695586027").split()):
+    ADMINS=[6663845789]
+    for x in (os.environ.get("ADMINS", "1198543451 6940013358 6020516635 1837294444 6695586027 6663845789").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
