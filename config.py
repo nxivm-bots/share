@@ -52,13 +52,13 @@ PAYMENT_TEXT = os.getenv('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀ�
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Nxivmbots:nxivmbots31@cluster0.w5ctt.mongodb.net/")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluser10")
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002115625636")) #database save channel id 
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002270578012")) #database save channel id 
 
 """
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002182435006"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002182435006"))
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002182435006"))
-FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "-1002182435006"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "--1002192792394"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002192792394"))
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002192792394"))
+FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "-1002192792394"))
 """
 
 #Shortner (token system) 
