@@ -21,7 +21,7 @@ CHANNEL = os.environ.get("CHANNEL", "Bloods_Onlyfans") # WITHOUR @
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/Ysc.jpg")
 START_PIC = os.environ.get("START_PIC", "https://envs.sh/YLM.jpg")
 TOKEN_PIC = os.environ.get("TOKEN_PIC", "https://envs.sh/Ysj.jpg")
-bot_username = os.environ.get("bot_username", "deiimo_token_bot")
+bot_username = os.environ.get("bot_username", "@Filesharenxivm_bot")
 REFERTIME = int(os.environ.get("REFERTIME",8)) #hours 
 
 
