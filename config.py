@@ -9,7 +9,7 @@ TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7725518791:AAERChanLk4VbRPhx8GtcI
 APP_ID = int(os.environ.get("APP_ID", "22505271"))
 API_HASH = os.environ.get("API_HASH", "c89a94fcfda4bc06524d0903977fc81e")
  
-BAN = int(os.environ.get("BAN", "1110013190")) #Owner user id - dont chnge 
+BAN = int(os.environ.get("BAN", "6589879577")) #Owner user id - dont chnge 
 OWNER = os.environ.get("OWNER", "iblame") #Owner username
 OWNER_ID = int(os.environ.get("OWNER_ID", "1110013190")) #Owner user id
 OWNER_USERNAME = os.environ.get('OWNER_USERNAME', 'iblame')
